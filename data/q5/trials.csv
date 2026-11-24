@@ -1,0 +1,10 @@
+run_id,condition,trial,firmware_version,N,receive_slots,sender_slots,application_delay_ms,data_timer_ms,window_timer_ms,loss_probability,prng,seed,success,receiver_elapsed_s,application_goodput_bytes_s,data_retransmissions,injected_data_drops,max_queue_occupancy,expected_new_data_full_queue_discards,messages_verified,payload_bytes,order_ok,integrity_ok,exactly_once_ok,sender_final_ack,ap_log,transmitter_log,notes
+q5-f-01,F,1,,512,8,8,0,500,500,0,,,,,,,,,,,,,,,,,,
+q5-f-02,F,2,,512,8,8,0,500,500,0,,,,,,,,,,,,,,,,,,
+q5-f-03,F,3,,512,8,8,0,500,500,0,,,,,,,,,,,,,,,,,,
+q5-s-01,S,1,,512,8,8,100,500,500,0,,,,,,,,,,,,,,,,,,
+q5-s-02,S,2,,512,8,8,100,500,500,0,,,,,,,,,,,,,,,,,,
+q5-s-03,S,3,,512,8,8,100,500,500,0,,,,,,,,,,,,,,,,,,
+q5-l-01,L,1,,512,8,8,0,500,500,0.05,,,,,,,,,,,,,,,,,,
+q5-l-02,L,2,,512,8,8,0,500,500,0.05,,,,,,,,,,,,,,,,,,
+q5-l-03,L,3,,512,8,8,0,500,500,0.05,,,,,,,,,,,,,,,,,,

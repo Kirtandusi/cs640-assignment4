@@ -1,0 +1,23 @@
+Software validation summary (not a hardware trace)
+UTC: 2026-11-24T16:16:07Z
+Firmware: a4-q1-v1
+Container: hw2-lora; toolchain volume: hw2-platformio
+Platform: espressif32 6.9.0; Arduino package 3.20017.241212+sha.dcc1105b
+Reproduction command: AGENTS.md
+
+PlatformIO ap: SUCCESS; RAM 42936 bytes; flash 679921 bytes
+PlatformIO transmitter: SUCCESS; RAM 42936 bytes; flash 677989 bytes
+Cppcheck 2.17.1 exhaustive, A4_AP=1 and A4_AP=0: PASS
+C++11 packet tests (-Wall -Wextra -Werror): PASS
+Tests cover CRC standard vector, all 20 payloads, full/short lengths,
+message order, corrupt payload/header, wrong port with valid CRC,
+truncated/extra packet bytes and truncated header.
+git diff --check: PASS
+
+Hardware flashing: not performed. Radio delivery and actual Q1 evidence pending.
+
+SHA-256 of validated inputs:
+2ed44bb4db66f23851090e92f2114660fb6fece154fad9ea64181080f4984c71  src/main.cpp
+c78dbda0424f58e98dc03a09a04f4da9dcfae507422f8dc308f7fd027cc9ac3e  include/transport.h
+e517ca8e63eeb414bbae08f359398b7c57ed46bb3716c55a97c82274707755b1  platformio.ini
+8829b1702cccb10a71c100cd698a02b0df1c52dfa2d0ced5de6ca6dd46725d60  test/transport_test.cpp
