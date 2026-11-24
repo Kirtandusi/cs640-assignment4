@@ -18,3 +18,29 @@ Save in a run-ID subdirectory:
   measure its wait; startup/association can make it exceed two seconds.
 
 `software-validation.txt` records software checks only, not radio measurements.
+
+## Automatic capture
+
+PlatformIO's configured `q1_log` monitor filter saves received serial text to
+`logs/q1/<environment>-<UTC timestamp>.log` and flushes every chunk immediately.
+Each monitor session creates a new file; earlier sessions are not overwritten.
+The monitor prints the full save path when it opens. Select the correct role:
+
+```sh
+pio device monitor -e ap --port <AP_PORT>
+pio device monitor -e transmitter --port <TRANSMITTER_PORT>
+```
+
+Restart already-open monitors once to load this setting. With firmware v2, type `l` after the run to replay boot-to-current evidence
+from board RAM into the saved log. v1 cannot replay earlier output. After both
+monitors are saving, reset AP first and then transmitter for complete evidence.
+Upload v2 to both boards to enable replay and expanded logging. Keep the timestamped files
+as the original logs and associate their run ID from the firmware output.
+
+
+Replay blocks retain original timestamps and are labeled SAVED TRANSCRIPT;
+do not count their events twice. Check `truncated=no`. Type `r` to restart a
+board after saving its evidence. Reset clears RAM, so replay before resetting.
+Require no RUN INVALID lines and a PASS summary for the selected fresh run.
+The logs include each received header and CRC, enqueue acceptance, explicit
+application wait/delivery times, initial sender delay and send counts.

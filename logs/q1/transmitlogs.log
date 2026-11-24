@@ -1,0 +1,24 @@
+[5638 ms][q1-001] Client IP=192.168.4.2 AP IP=192.168.4.1
+[5639 ms][q1-001] IP acquired; AP receiver ready before association. First send delayed 2000 ms
+[7650 ms][q1-001] TX first seq=1 payload=1460 transport_bytes=1480 result=1480 errno=0
+[7751 ms][q1-001] TX first seq=2 payload=1460 transport_bytes=1480 result=1480 errno=0
+[7852 ms][q1-001] TX first seq=3 payload=1460 transport_bytes=1480 result=1480 errno=0
+[7953 ms][q1-001] TX first seq=4 payload=1460 transport_bytes=1480 result=1480 errno=0
+[8054 ms][q1-001] TX first seq=5 payload=1460 transport_bytes=1480 result=1480 errno=0
+[8155 ms][q1-001] TX first seq=6 payload=1460 transport_bytes=1480 result=1480 errno=0
+[8256 ms][q1-001] TX first seq=7 payload=1460 transport_bytes=1480 result=1480 errno=0
+[8357 ms][q1-001] TX first seq=8 payload=1460 transport_bytes=1480 result=1480 errno=0
+[8458 ms][q1-001] TX first seq=9 payload=1460 transport_bytes=1480 result=1480 errno=0
+[8559 ms][q1-001] TX first seq=10 payload=1460 transport_bytes=1480 result=1480 errno=0
+[8660 ms][q1-001] TX first seq=11 payload=1460 transport_bytes=1480 result=1480 errno=0
+[8761 ms][q1-001] TX first seq=12 payload=1460 transport_bytes=1480 result=1480 errno=0
+[8862 ms][q1-001] TX first seq=13 payload=1460 transport_bytes=1480 result=1480 errno=0
+[8963 ms][q1-001] TX first seq=14 payload=1460 transport_bytes=1480 result=1480 errno=0
+[9064 ms][q1-001] TX first seq=15 payload=1460 transport_bytes=1480 result=1480 errno=0
+[9165 ms][q1-001] TX first seq=16 payload=1460 transport_bytes=1480 result=1480 errno=0
+[9266 ms][q1-001] TX first seq=17 payload=1460 transport_bytes=1480 result=1480 errno=0
+[9367 ms][q1-001] TX first seq=18 payload=1460 transport_bytes=1480 result=1480 errno=0
+[9468 ms][q1-001] TX first seq=19 payload=1460 transport_bytes=1480 result=1480 errno=0
+[9569 ms][q1-001] TX first seq=20 payload=17 transport_bytes=37 result=37 errno=0
+[9569 ms][q1-001] TX complete: 20 attempts; no ACK/retry in Step 1
+

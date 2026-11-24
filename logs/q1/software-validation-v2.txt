@@ -1,0 +1,17 @@
+Software validation summary — a4-q1-v2
+UTC: 2026-11-24T16:39:57Z
+Container workflow: AGENTS.md
+Both AP and transmitter builds: PASS
+Cppcheck exhaustive, both role variants: PASS
+C++ packet tests: PASS
+Firmware changes: serialized log lines; 48 KiB RAM transcript; serial l replay,
+r restart; every received header and CRC; enqueue outcomes; wait timestamps;
+initial delay measurement; sender success count; invalid extra-delivery warning.
+No board flashed. Hardware replay and updated run evidence remain unverified.
+Historical v1 validation and original hardware logs are preserved.
+
+SHA-256:
+bfdae2e255b426eefb5491998472db482598b429ab730ea5df08d61fcc27b969  src/main.cpp
+c78dbda0424f58e98dc03a09a04f4da9dcfae507422f8dc308f7fd027cc9ac3e  include/transport.h
+3d7646daaaa4957c6d4f1d27b3630dd4ee83a587ab619eea6844223923a53fbb  platformio.ini
+599a6db1eaf474de4954ee043df4accacf5628aef9a8a9277a44d4e26fad31c9  monitor/filter_q1_log.py

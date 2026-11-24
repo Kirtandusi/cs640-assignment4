@@ -1,0 +1,60 @@
+[617153 ms][q1-001] RX seq=1 length=1460 CRC=PASS
+[617154 ms][q1-001] APP delivery number=1 expected=21 length=1460 wait_ms=190234 Q=0 verify=FAIL
+[617164 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[617256 ms][q1-001] RX seq=2 length=1460 CRC=PASS
+[617256 ms][q1-001] APP delivery number=2 expected=22 length=1460 wait_ms=92 Q=0 verify=FAIL
+[617267 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[617351 ms][q1-001] RX seq=3 length=1460 CRC=PASS
+[617351 ms][q1-001] APP delivery number=3 expected=23 length=1460 wait_ms=85 Q=0 verify=FAIL
+[617362 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[617452 ms][q1-001] RX seq=4 length=1460 CRC=PASS
+[617452 ms][q1-001] APP delivery number=4 expected=24 length=1460 wait_ms=90 Q=0 verify=FAIL
+[617463 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[617554 ms][q1-001] RX seq=5 length=1460 CRC=PASS
+[617554 ms][q1-001] APP delivery number=5 expected=25 length=1460 wait_ms=91 Q=0 verify=FAIL
+[617564 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[617654 ms][q1-001] RX seq=6 length=1460 CRC=PASS
+[617654 ms][q1-001] APP delivery number=6 expected=26 length=1460 wait_ms=90 Q=0 verify=FAIL
+[617665 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[617755 ms][q1-001] RX seq=7 length=1460 CRC=PASS
+[617755 ms][q1-001] APP delivery number=7 expected=27 length=1460 wait_ms=90 Q=0 verify=FAIL
+[617765 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[617857 ms][q1-001] RX seq=8 length=1460 CRC=PASS
+[617858 ms][q1-001] APP delivery number=8 expected=28 length=1460 wait_ms=92 Q=0 verify=FAIL
+[617868 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[617960 ms][q1-001] RX seq=9 length=1460 CRC=PASS
+[617960 ms][q1-001] APP delivery number=9 expected=29 length=1460 wait_ms=92 Q=0 verify=FAIL
+[617970 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[618058 ms][q1-001] RX seq=10 length=1460 CRC=PASS
+[618058 ms][q1-001] APP delivery number=10 expected=30 length=1460 wait_ms=88 Q=0 verify=FAIL
+[618069 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[618159 ms][q1-001] RX seq=11 length=1460 CRC=PASS
+[618159 ms][q1-001] APP delivery number=11 expected=31 length=1460 wait_ms=90 Q=0 verify=FAIL
+[618169 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[618265 ms][q1-001] RX seq=12 length=1460 CRC=PASS
+[618265 ms][q1-001] APP delivery number=12 expected=32 length=1460 wait_ms=95 Q=0 verify=FAIL
+[618275 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[618361 ms][q1-001] RX seq=13 length=1460 CRC=PASS
+[618361 ms][q1-001] APP delivery number=13 expected=33 length=1460 wait_ms=86 Q=0 verify=FAIL
+[618371 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[618465 ms][q1-001] RX seq=14 length=1460 CRC=PASS
+[618465 ms][q1-001] APP delivery number=14 expected=34 length=1460 wait_ms=93 Q=0 verify=FAIL
+[618475 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[618563 ms][q1-001] RX seq=15 length=1460 CRC=PASS
+[618563 ms][q1-001] APP delivery number=15 expected=35 length=1460 wait_ms=88 Q=0 verify=FAIL
+[618574 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[618664 ms][q1-001] RX seq=16 length=1460 CRC=PASS
+[618664 ms][q1-001] APP delivery number=16 expected=36 length=1460 wait_ms=90 Q=0 verify=FAIL
+[618675 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[618767 ms][q1-001] RX seq=17 length=1460 CRC=PASS
+[618768 ms][q1-001] APP delivery number=17 expected=37 length=1460 wait_ms=93 Q=0 verify=FAIL
+[618778 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[618866 ms][q1-001] RX seq=18 length=1460 CRC=PASS
+[618867 ms][q1-001] APP delivery number=18 expected=38 length=1460 wait_ms=89 Q=0 verify=FAIL
+[618877 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[618969 ms][q1-001] RX seq=19 length=1460 CRC=PASS
+[618969 ms][q1-001] APP delivery number=19 expected=39 length=1460 wait_ms=92 Q=0 verify=FAIL
+[618979 ms][q1-001] APP WAIT: blocking on port 6401 queue
+[619067 ms][q1-001] RX seq=20 length=17 CRC=PASS
+[619067 ms][q1-001] APP delivery number=20 expected=40 length=17 wait_ms=88 Q=0 verify=FAIL
+[619078 ms][q1-001] APP WAIT: blocking on port 6401 queue
