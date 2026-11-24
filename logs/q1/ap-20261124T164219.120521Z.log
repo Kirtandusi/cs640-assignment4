@@ -1,0 +1,330 @@
+[76509 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 01 00 00 00 00 05 b4 00 00 a9 76 95 ad 
+[76509 ms][q1-001] DECODE src=6400 dst=6401 seq=1 ack=0 length=1460 window=0 CRC=a97695ad recomputed=a97695ad PASS IHL=20
+[76519 ms][q1-001] Peer IP=192.168.4.2
+[76529 ms][q1-001] RX seq=1 length=1460 CRC=PASS
+[76529 ms][q1-001] RX accepted seq=1 into application queue port=6401
+[76540 ms][q1-001] APP delivery number=1 expected=1 length=1460 wait_ms=75283 Q=0 verify=PASS
+[76540 ms][q1-001] APP timing wait_start_ms=1246 delivery_ms=76529 blocked_interval_ms=75283
+[76550 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=76550 expected=2
+[76609 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 02 00 00 00 00 05 b4 00 00 da cd bd 88 
+[76609 ms][q1-001] DECODE src=6400 dst=6401 seq=2 ack=0 length=1460 window=0 CRC=dacdbd88 recomputed=dacdbd88 PASS IHL=20
+[76619 ms][q1-001] Peer IP=192.168.4.2
+[76629 ms][q1-001] RX seq=2 length=1460 CRC=PASS
+[76629 ms][q1-001] RX accepted seq=2 into application queue port=6401
+[76640 ms][q1-001] APP delivery number=2 expected=2 length=1460 wait_ms=79 Q=0 verify=PASS
+[76640 ms][q1-001] APP timing wait_start_ms=76550 delivery_ms=76629 blocked_interval_ms=79
+[76650 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=76650 expected=3
+[76707 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 03 00 00 00 00 05 b4 00 00 5d 35 bd 8d 
+[76707 ms][q1-001] DECODE src=6400 dst=6401 seq=3 ack=0 length=1460 window=0 CRC=5d35bd8d recomputed=5d35bd8d PASS IHL=20
+[76717 ms][q1-001] Peer IP=192.168.4.2
+[76728 ms][q1-001] RX seq=3 length=1460 CRC=PASS
+[76728 ms][q1-001] RX accepted seq=3 into application queue port=6401
+[76738 ms][q1-001] APP delivery number=3 expected=3 length=1460 wait_ms=78 Q=0 verify=PASS
+[76738 ms][q1-001] APP timing wait_start_ms=76650 delivery_ms=76728 blocked_interval_ms=78
+[76748 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=76748 expected=4
+[76809 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 04 00 00 00 00 05 b4 00 00 70 0a 7e 20 
+[76809 ms][q1-001] DECODE src=6400 dst=6401 seq=4 ack=0 length=1460 window=0 CRC=700a7e20 recomputed=700a7e20 PASS IHL=20
+[76819 ms][q1-001] Peer IP=192.168.4.2
+[76830 ms][q1-001] RX seq=4 length=1460 CRC=PASS
+[76830 ms][q1-001] RX accepted seq=4 into application queue port=6401
+[76840 ms][q1-001] APP delivery number=4 expected=4 length=1460 wait_ms=82 Q=0 verify=PASS
+[76840 ms][q1-001] APP timing wait_start_ms=76748 delivery_ms=76830 blocked_interval_ms=82
+[76850 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=76850 expected=5
+[76909 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 05 00 00 00 00 05 b4 00 00 8c f0 eb e5 
+[76909 ms][q1-001] DECODE src=6400 dst=6401 seq=5 ack=0 length=1460 window=0 CRC=8cf0ebe5 recomputed=8cf0ebe5 PASS IHL=20
+[76919 ms][q1-001] Peer IP=192.168.4.2
+[76929 ms][q1-001] RX seq=5 length=1460 CRC=PASS
+[76930 ms][q1-001] RX accepted seq=5 into application queue port=6401
+[76940 ms][q1-001] APP delivery number=5 expected=5 length=1460 wait_ms=80 Q=0 verify=PASS
+[76940 ms][q1-001] APP timing wait_start_ms=76850 delivery_ms=76930 blocked_interval_ms=80
+[76950 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=76950 expected=6
+[77010 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 06 00 00 00 00 05 b4 00 00 2f ac f7 6b 
+[77010 ms][q1-001] DECODE src=6400 dst=6401 seq=6 ack=0 length=1460 window=0 CRC=2facf76b recomputed=2facf76b PASS IHL=20
+[77020 ms][q1-001] Peer IP=192.168.4.2
+[77030 ms][q1-001] RX seq=6 length=1460 CRC=PASS
+[77030 ms][q1-001] RX accepted seq=6 into application queue port=6401
+[77041 ms][q1-001] APP delivery number=6 expected=6 length=1460 wait_ms=80 Q=0 verify=PASS
+[77041 ms][q1-001] APP timing wait_start_ms=76950 delivery_ms=77030 blocked_interval_ms=80
+[77051 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77051 expected=7
+[77111 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 07 00 00 00 00 05 b4 00 00 e9 80 6a 3a 
+[77111 ms][q1-001] DECODE src=6400 dst=6401 seq=7 ack=0 length=1460 window=0 CRC=e9806a3a recomputed=e9806a3a PASS IHL=20
+[77121 ms][q1-001] Peer IP=192.168.4.2
+[77131 ms][q1-001] RX seq=7 length=1460 CRC=PASS
+[77131 ms][q1-001] RX accepted seq=7 into application queue port=6401
+[77142 ms][q1-001] APP delivery number=7 expected=7 length=1460 wait_ms=80 Q=0 verify=PASS
+[77142 ms][q1-001] APP timing wait_start_ms=77051 delivery_ms=77131 blocked_interval_ms=80
+[77152 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77152 expected=8
+[77212 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 08 00 00 00 00 05 b4 00 00 82 00 d6 eb 
+[77212 ms][q1-001] DECODE src=6400 dst=6401 seq=8 ack=0 length=1460 window=0 CRC=8200d6eb recomputed=8200d6eb PASS IHL=20
+[77222 ms][q1-001] Peer IP=192.168.4.2
+[77232 ms][q1-001] RX seq=8 length=1460 CRC=PASS
+[77232 ms][q1-001] RX accepted seq=8 into application queue port=6401
+[77242 ms][q1-001] APP delivery number=8 expected=8 length=1460 wait_ms=80 Q=0 verify=PASS
+[77243 ms][q1-001] APP timing wait_start_ms=77152 delivery_ms=77232 blocked_interval_ms=80
+[77253 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77253 expected=9
+[77313 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 09 00 00 00 00 05 b4 00 00 70 e2 08 b1 
+[77313 ms][q1-001] DECODE src=6400 dst=6401 seq=9 ack=0 length=1460 window=0 CRC=70e208b1 recomputed=70e208b1 PASS IHL=20
+[77323 ms][q1-001] Peer IP=192.168.4.2
+[77333 ms][q1-001] RX seq=9 length=1460 CRC=PASS
+[77333 ms][q1-001] RX accepted seq=9 into application queue port=6401
+[77344 ms][q1-001] APP delivery number=9 expected=9 length=1460 wait_ms=80 Q=0 verify=PASS
+[77344 ms][q1-001] APP timing wait_start_ms=77253 delivery_ms=77333 blocked_interval_ms=80
+[77354 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77354 expected=10
+[77415 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0a 00 00 00 00 05 b4 00 00 b3 00 82 a1 
+[77415 ms][q1-001] DECODE src=6400 dst=6401 seq=10 ack=0 length=1460 window=0 CRC=b30082a1 recomputed=b30082a1 PASS IHL=20
+[77425 ms][q1-001] Peer IP=192.168.4.2
+[77435 ms][q1-001] RX seq=10 length=1460 CRC=PASS
+[77435 ms][q1-001] RX accepted seq=10 into application queue port=6401
+[77446 ms][q1-001] APP delivery number=10 expected=10 length=1460 wait_ms=81 Q=0 verify=PASS
+[77446 ms][q1-001] APP timing wait_start_ms=77354 delivery_ms=77435 blocked_interval_ms=81
+[77456 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77456 expected=11
+[77518 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0b 00 00 00 00 05 b4 00 00 62 fb 1f 25 
+[77518 ms][q1-001] DECODE src=6400 dst=6401 seq=11 ack=0 length=1460 window=0 CRC=62fb1f25 recomputed=62fb1f25 PASS IHL=20
+[77529 ms][q1-001] Peer IP=192.168.4.2
+[77539 ms][q1-001] RX seq=11 length=1460 CRC=PASS
+[77539 ms][q1-001] RX accepted seq=11 into application queue port=6401
+[77549 ms][q1-001] APP delivery number=11 expected=11 length=1460 wait_ms=83 Q=0 verify=PASS
+[77549 ms][q1-001] APP timing wait_start_ms=77456 delivery_ms=77539 blocked_interval_ms=83
+[77560 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77560 expected=12
+[77616 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0c 00 00 00 00 05 b4 00 00 d5 2d 6c a3 
+[77616 ms][q1-001] DECODE src=6400 dst=6401 seq=12 ack=0 length=1460 window=0 CRC=d52d6ca3 recomputed=d52d6ca3 PASS IHL=20
+[77626 ms][q1-001] Peer IP=192.168.4.2
+[77637 ms][q1-001] RX seq=12 length=1460 CRC=PASS
+[77637 ms][q1-001] RX accepted seq=12 into application queue port=6401
+[77647 ms][q1-001] APP delivery number=12 expected=12 length=1460 wait_ms=77 Q=0 verify=PASS
+[77647 ms][q1-001] APP timing wait_start_ms=77560 delivery_ms=77637 blocked_interval_ms=77
+[77657 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77657 expected=13
+[77717 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0d 00 00 00 00 05 b4 00 00 74 a1 73 0a 
+[77717 ms][q1-001] DECODE src=6400 dst=6401 seq=13 ack=0 length=1460 window=0 CRC=74a1730a recomputed=74a1730a PASS IHL=20
+[77727 ms][q1-001] Peer IP=192.168.4.2
+[77737 ms][q1-001] RX seq=13 length=1460 CRC=PASS
+[77737 ms][q1-001] RX accepted seq=13 into application queue port=6401
+[77748 ms][q1-001] APP delivery number=13 expected=13 length=1460 wait_ms=80 Q=0 verify=PASS
+[77748 ms][q1-001] APP timing wait_start_ms=77657 delivery_ms=77737 blocked_interval_ms=80
+[77758 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77758 expected=14
+[77818 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0e 00 00 00 00 05 b4 00 00 93 a4 34 7d 
+[77818 ms][q1-001] DECODE src=6400 dst=6401 seq=14 ack=0 length=1460 window=0 CRC=93a4347d recomputed=93a4347d PASS IHL=20
+[77828 ms][q1-001] Peer IP=192.168.4.2
+[77838 ms][q1-001] RX seq=14 length=1460 CRC=PASS
+[77838 ms][q1-001] RX accepted seq=14 into application queue port=6401
+[77849 ms][q1-001] APP delivery number=14 expected=14 length=1460 wait_ms=80 Q=0 verify=PASS
+[77849 ms][q1-001] APP timing wait_start_ms=77758 delivery_ms=77838 blocked_interval_ms=80
+[77859 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77859 expected=15
+[77919 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0f 00 00 00 00 05 b4 00 00 91 ad ba cf 
+[77919 ms][q1-001] DECODE src=6400 dst=6401 seq=15 ack=0 length=1460 window=0 CRC=91adbacf recomputed=91adbacf PASS IHL=20
+[77929 ms][q1-001] Peer IP=192.168.4.2
+[77940 ms][q1-001] RX seq=15 length=1460 CRC=PASS
+[77940 ms][q1-001] RX accepted seq=15 into application queue port=6401
+[77950 ms][q1-001] APP delivery number=15 expected=15 length=1460 wait_ms=81 Q=0 verify=PASS
+[77950 ms][q1-001] APP timing wait_start_ms=77859 delivery_ms=77940 blocked_interval_ms=81
+[77960 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77960 expected=16
+[78019 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 10 00 00 00 00 05 b4 00 00 96 1a ec d7 
+[78020 ms][q1-001] DECODE src=6400 dst=6401 seq=16 ack=0 length=1460 window=0 CRC=961aecd7 recomputed=961aecd7 PASS IHL=20
+[78030 ms][q1-001] Peer IP=192.168.4.2
+[78040 ms][q1-001] RX seq=16 length=1460 CRC=PASS
+[78040 ms][q1-001] RX accepted seq=16 into application queue port=6401
+[78050 ms][q1-001] APP delivery number=16 expected=16 length=1460 wait_ms=80 Q=0 verify=PASS
+[78051 ms][q1-001] APP timing wait_start_ms=77960 delivery_ms=78040 blocked_interval_ms=80
+[78061 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=78061 expected=17
+[78121 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 11 00 00 00 00 05 b4 00 00 95 15 17 59 
+[78121 ms][q1-001] DECODE src=6400 dst=6401 seq=17 ack=0 length=1460 window=0 CRC=95151759 recomputed=95151759 PASS IHL=20
+[78131 ms][q1-001] Peer IP=192.168.4.2
+[78141 ms][q1-001] RX seq=17 length=1460 CRC=PASS
+[78141 ms][q1-001] RX accepted seq=17 into application queue port=6401
+[78152 ms][q1-001] APP delivery number=17 expected=17 length=1460 wait_ms=80 Q=0 verify=PASS
+[78152 ms][q1-001] APP timing wait_start_ms=78061 delivery_ms=78141 blocked_interval_ms=80
+[78162 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=78162 expected=18
+[78222 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 12 00 00 00 00 05 b4 00 00 d7 b8 66 a1 
+[78222 ms][q1-001] DECODE src=6400 dst=6401 seq=18 ack=0 length=1460 window=0 CRC=d7b866a1 recomputed=d7b866a1 PASS IHL=20
+[78232 ms][q1-001] Peer IP=192.168.4.2
+[78242 ms][q1-001] RX seq=18 length=1460 CRC=PASS
+[78242 ms][q1-001] RX accepted seq=18 into application queue port=6401
+[78253 ms][q1-001] APP delivery number=18 expected=18 length=1460 wait_ms=80 Q=0 verify=PASS
+[78253 ms][q1-001] APP timing wait_start_ms=78162 delivery_ms=78242 blocked_interval_ms=80
+[78263 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=78263 expected=19
+[78323 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 13 00 00 00 00 05 b4 00 00 a8 13 de 94 
+[78323 ms][q1-001] DECODE src=6400 dst=6401 seq=19 ack=0 length=1460 window=0 CRC=a813de94 recomputed=a813de94 PASS IHL=20
+[78333 ms][q1-001] Peer IP=192.168.4.2
+[78343 ms][q1-001] RX seq=19 length=1460 CRC=PASS
+[78343 ms][q1-001] RX accepted seq=19 into application queue port=6401
+[78354 ms][q1-001] APP delivery number=19 expected=19 length=1460 wait_ms=80 Q=0 verify=PASS
+[78354 ms][q1-001] APP timing wait_start_ms=78263 delivery_ms=78343 blocked_interval_ms=80
+[78364 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=78364 expected=20
+[78423 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 14 00 00 00 00 00 11 00 00 90 82 43 ee 
+[78423 ms][q1-001] DECODE src=6400 dst=6401 seq=20 ack=0 length=17 window=0 CRC=908243ee recomputed=908243ee PASS IHL=20
+[78433 ms][q1-001] Peer IP=192.168.4.2
+[78443 ms][q1-001] RX seq=20 length=17 CRC=PASS
+[78443 ms][q1-001] RX accepted seq=20 into application queue port=6401
+[78454 ms][q1-001] APP delivery number=20 expected=20 length=17 wait_ms=79 Q=0 verify=PASS
+[78454 ms][q1-001] APP SUMMARY messages=20 bytes=27757 order/length/every-byte=PASS
+[78464 ms][q1-001] APP timing wait_start_ms=78364 delivery_ms=78443 blocked_interval_ms=79
+[78474 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=78474 expected=21
+
+=== SAVED TRANSCRIPT BEGIN role=AP bytes=13557 truncated=no ===
+[1172 ms][q1-001] RUN BEGIN; serial commands: l=replay saved transcript, r=restart board
+[1172 ms][q1-001] firmware=a4-q1-v2 role=AP N=20 slots=8 app_delay=0 send_interval=100 first_delay=2000 faults=none ACK/retry=disabled
+[1183 ms][q1-001] CRC self-test 123456789 = CBF43926 PASS
+[1246 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=1246 expected=1
+[1255 ms][q1-001] AP READY SSID=CS640-A4-10 IP=192.168.4.1 /24 DHCP enabled protocol=253 port=6401
+[76509 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 01 00 00 00 00 05 b4 00 00 a9 76 95 ad 
+[76509 ms][q1-001] DECODE src=6400 dst=6401 seq=1 ack=0 length=1460 window=0 CRC=a97695ad recomputed=a97695ad PASS IHL=20
+[76519 ms][q1-001] Peer IP=192.168.4.2
+[76529 ms][q1-001] RX seq=1 length=1460 CRC=PASS
+[76529 ms][q1-001] RX accepted seq=1 into application queue port=6401
+[76540 ms][q1-001] APP delivery number=1 expected=1 length=1460 wait_ms=75283 Q=0 verify=PASS
+[76540 ms][q1-001] APP timing wait_start_ms=1246 delivery_ms=76529 blocked_interval_ms=75283
+[76550 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=76550 expected=2
+[76609 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 02 00 00 00 00 05 b4 00 00 da cd bd 88 
+[76609 ms][q1-001] DECODE src=6400 dst=6401 seq=2 ack=0 length=1460 window=0 CRC=dacdbd88 recomputed=dacdbd88 PASS IHL=20
+[76619 ms][q1-001] Peer IP=192.168.4.2
+[76629 ms][q1-001] RX seq=2 length=1460 CRC=PASS
+[76629 ms][q1-001] RX accepted seq=2 into application queue port=6401
+[76640 ms][q1-001] APP delivery number=2 expected=2 length=1460 wait_ms=79 Q=0 verify=PASS
+[76640 ms][q1-001] APP timing wait_start_ms=76550 delivery_ms=76629 blocked_interval_ms=79
+[76650 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=76650 expected=3
+[76707 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 03 00 00 00 00 05 b4 00 00 5d 35 bd 8d 
+[76707 ms][q1-001] DECODE src=6400 dst=6401 seq=3 ack=0 length=1460 window=0 CRC=5d35bd8d recomputed=5d35bd8d PASS IHL=20
+[76717 ms][q1-001] Peer IP=192.168.4.2
+[76728 ms][q1-001] RX seq=3 length=1460 CRC=PASS
+[76728 ms][q1-001] RX accepted seq=3 into application queue port=6401
+[76738 ms][q1-001] APP delivery number=3 expected=3 length=1460 wait_ms=78 Q=0 verify=PASS
+[76738 ms][q1-001] APP timing wait_start_ms=76650 delivery_ms=76728 blocked_interval_ms=78
+[76748 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=76748 expected=4
+[76809 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 04 00 00 00 00 05 b4 00 00 70 0a 7e 20 
+[76809 ms][q1-001] DECODE src=6400 dst=6401 seq=4 ack=0 length=1460 window=0 CRC=700a7e20 recomputed=700a7e20 PASS IHL=20
+[76819 ms][q1-001] Peer IP=192.168.4.2
+[76830 ms][q1-001] RX seq=4 length=1460 CRC=PASS
+[76830 ms][q1-001] RX accepted seq=4 into application queue port=6401
+[76840 ms][q1-001] APP delivery number=4 expected=4 length=1460 wait_ms=82 Q=0 verify=PASS
+[76840 ms][q1-001] APP timing wait_start_ms=76748 delivery_ms=76830 blocked_interval_ms=82
+[76850 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=76850 expected=5
+[76909 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 05 00 00 00 00 05 b4 00 00 8c f0 eb e5 
+[76909 ms][q1-001] DECODE src=6400 dst=6401 seq=5 ack=0 length=1460 window=0 CRC=8cf0ebe5 recomputed=8cf0ebe5 PASS IHL=20
+[76919 ms][q1-001] Peer IP=192.168.4.2
+[76929 ms][q1-001] RX seq=5 length=1460 CRC=PASS
+[76930 ms][q1-001] RX accepted seq=5 into application queue port=6401
+[76940 ms][q1-001] APP delivery number=5 expected=5 length=1460 wait_ms=80 Q=0 verify=PASS
+[76940 ms][q1-001] APP timing wait_start_ms=76850 delivery_ms=76930 blocked_interval_ms=80
+[76950 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=76950 expected=6
+[77010 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 06 00 00 00 00 05 b4 00 00 2f ac f7 6b 
+[77010 ms][q1-001] DECODE src=6400 dst=6401 seq=6 ack=0 length=1460 window=0 CRC=2facf76b recomputed=2facf76b PASS IHL=20
+[77020 ms][q1-001] Peer IP=192.168.4.2
+[77030 ms][q1-001] RX seq=6 length=1460 CRC=PASS
+[77030 ms][q1-001] RX accepted seq=6 into application queue port=6401
+[77041 ms][q1-001] APP delivery number=6 expected=6 length=1460 wait_ms=80 Q=0 verify=PASS
+[77041 ms][q1-001] APP timing wait_start_ms=76950 delivery_ms=77030 blocked_interval_ms=80
+[77051 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77051 expected=7
+[77111 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 07 00 00 00 00 05 b4 00 00 e9 80 6a 3a 
+[77111 ms][q1-001] DECODE src=6400 dst=6401 seq=7 ack=0 length=1460 window=0 CRC=e9806a3a recomputed=e9806a3a PASS IHL=20
+[77121 ms][q1-001] Peer IP=192.168.4.2
+[77131 ms][q1-001] RX seq=7 length=1460 CRC=PASS
+[77131 ms][q1-001] RX accepted seq=7 into application queue port=6401
+[77142 ms][q1-001] APP delivery number=7 expected=7 length=1460 wait_ms=80 Q=0 verify=PASS
+[77142 ms][q1-001] APP timing wait_start_ms=77051 delivery_ms=77131 blocked_interval_ms=80
+[77152 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77152 expected=8
+[77212 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 08 00 00 00 00 05 b4 00 00 82 00 d6 eb 
+[77212 ms][q1-001] DECODE src=6400 dst=6401 seq=8 ack=0 length=1460 window=0 CRC=8200d6eb recomputed=8200d6eb PASS IHL=20
+[77222 ms][q1-001] Peer IP=192.168.4.2
+[77232 ms][q1-001] RX seq=8 length=1460 CRC=PASS
+[77232 ms][q1-001] RX accepted seq=8 into application queue port=6401
+[77242 ms][q1-001] APP delivery number=8 expected=8 length=1460 wait_ms=80 Q=0 verify=PASS
+[77243 ms][q1-001] APP timing wait_start_ms=77152 delivery_ms=77232 blocked_interval_ms=80
+[77253 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77253 expected=9
+[77313 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 09 00 00 00 00 05 b4 00 00 70 e2 08 b1 
+[77313 ms][q1-001] DECODE src=6400 dst=6401 seq=9 ack=0 length=1460 window=0 CRC=70e208b1 recomputed=70e208b1 PASS IHL=20
+[77323 ms][q1-001] Peer IP=192.168.4.2
+[77333 ms][q1-001] RX seq=9 length=1460 CRC=PASS
+[77333 ms][q1-001] RX accepted seq=9 into application queue port=6401
+[77344 ms][q1-001] APP delivery number=9 expected=9 length=1460 wait_ms=80 Q=0 verify=PASS
+[77344 ms][q1-001] APP timing wait_start_ms=77253 delivery_ms=77333 blocked_interval_ms=80
+[77354 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77354 expected=10
+[77415 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0a 00 00 00 00 05 b4 00 00 b3 00 82 a1 
+[77415 ms][q1-001] DECODE src=6400 dst=6401 seq=10 ack=0 length=1460 window=0 CRC=b30082a1 recomputed=b30082a1 PASS IHL=20
+[77425 ms][q1-001] Peer IP=192.168.4.2
+[77435 ms][q1-001] RX seq=10 length=1460 CRC=PASS
+[77435 ms][q1-001] RX accepted seq=10 into application queue port=6401
+[77446 ms][q1-001] APP delivery number=10 expected=10 length=1460 wait_ms=81 Q=0 verify=PASS
+[77446 ms][q1-001] APP timing wait_start_ms=77354 delivery_ms=77435 blocked_interval_ms=81
+[77456 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77456 expected=11
+[77518 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0b 00 00 00 00 05 b4 00 00 62 fb 1f 25 
+[77518 ms][q1-001] DECODE src=6400 dst=6401 seq=11 ack=0 length=1460 window=0 CRC=62fb1f25 recomputed=62fb1f25 PASS IHL=20
+[77529 ms][q1-001] Peer IP=192.168.4.2
+[77539 ms][q1-001] RX seq=11 length=1460 CRC=PASS
+[77539 ms][q1-001] RX accepted seq=11 into application queue port=6401
+[77549 ms][q1-001] APP delivery number=11 expected=11 length=1460 wait_ms=83 Q=0 verify=PASS
+[77549 ms][q1-001] APP timing wait_start_ms=77456 delivery_ms=77539 blocked_interval_ms=83
+[77560 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77560 expected=12
+[77616 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0c 00 00 00 00 05 b4 00 00 d5 2d 6c a3 
+[77616 ms][q1-001] DECODE src=6400 dst=6401 seq=12 ack=0 length=1460 window=0 CRC=d52d6ca3 recomputed=d52d6ca3 PASS IHL=20
+[77626 ms][q1-001] Peer IP=192.168.4.2
+[77637 ms][q1-001] RX seq=12 length=1460 CRC=PASS
+[77637 ms][q1-001] RX accepted seq=12 into application queue port=6401
+[77647 ms][q1-001] APP delivery number=12 expected=12 length=1460 wait_ms=77 Q=0 verify=PASS
+[77647 ms][q1-001] APP timing wait_start_ms=77560 delivery_ms=77637 blocked_interval_ms=77
+[77657 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77657 expected=13
+[77717 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0d 00 00 00 00 05 b4 00 00 74 a1 73 0a 
+[77717 ms][q1-001] DECODE src=6400 dst=6401 seq=13 ack=0 length=1460 window=0 CRC=74a1730a recomputed=74a1730a PASS IHL=20
+[77727 ms][q1-001] Peer IP=192.168.4.2
+[77737 ms][q1-001] RX seq=13 length=1460 CRC=PASS
+[77737 ms][q1-001] RX accepted seq=13 into application queue port=6401
+[77748 ms][q1-001] APP delivery number=13 expected=13 length=1460 wait_ms=80 Q=0 verify=PASS
+[77748 ms][q1-001] APP timing wait_start_ms=77657 delivery_ms=77737 blocked_interval_ms=80
+[77758 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77758 expected=14
+[77818 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0e 00 00 00 00 05 b4 00 00 93 a4 34 7d 
+[77818 ms][q1-001] DECODE src=6400 dst=6401 seq=14 ack=0 length=1460 window=0 CRC=93a4347d recomputed=93a4347d PASS IHL=20
+[77828 ms][q1-001] Peer IP=192.168.4.2
+[77838 ms][q1-001] RX seq=14 length=1460 CRC=PASS
+[77838 ms][q1-001] RX accepted seq=14 into application queue port=6401
+[77849 ms][q1-001] APP delivery number=14 expected=14 length=1460 wait_ms=80 Q=0 verify=PASS
+[77849 ms][q1-001] APP timing wait_start_ms=77758 delivery_ms=77838 blocked_interval_ms=80
+[77859 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77859 expected=15
+[77919 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 0f 00 00 00 00 05 b4 00 00 91 ad ba cf 
+[77919 ms][q1-001] DECODE src=6400 dst=6401 seq=15 ack=0 length=1460 window=0 CRC=91adbacf recomputed=91adbacf PASS IHL=20
+[77929 ms][q1-001] Peer IP=192.168.4.2
+[77940 ms][q1-001] RX seq=15 length=1460 CRC=PASS
+[77940 ms][q1-001] RX accepted seq=15 into application queue port=6401
+[77950 ms][q1-001] APP delivery number=15 expected=15 length=1460 wait_ms=81 Q=0 verify=PASS
+[77950 ms][q1-001] APP timing wait_start_ms=77859 delivery_ms=77940 blocked_interval_ms=81
+[77960 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=77960 expected=16
+[78019 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 10 00 00 00 00 05 b4 00 00 96 1a ec d7 
+[78020 ms][q1-001] DECODE src=6400 dst=6401 seq=16 ack=0 length=1460 window=0 CRC=961aecd7 recomputed=961aecd7 PASS IHL=20
+[78030 ms][q1-001] Peer IP=192.168.4.2
+[78040 ms][q1-001] RX seq=16 length=1460 CRC=PASS
+[78040 ms][q1-001] RX accepted seq=16 into application queue port=6401
+[78050 ms][q1-001] APP delivery number=16 expected=16 length=1460 wait_ms=80 Q=0 verify=PASS
+[78051 ms][q1-001] APP timing wait_start_ms=77960 delivery_ms=78040 blocked_interval_ms=80
+[78061 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=78061 expected=17
+[78121 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 11 00 00 00 00 05 b4 00 00 95 15 17 59 
+[78121 ms][q1-001] DECODE src=6400 dst=6401 seq=17 ack=0 length=1460 window=0 CRC=95151759 recomputed=95151759 PASS IHL=20
+[78131 ms][q1-001] Peer IP=192.168.4.2
+[78141 ms][q1-001] RX seq=17 length=1460 CRC=PASS
+[78141 ms][q1-001] RX accepted seq=17 into application queue port=6401
+[78152 ms][q1-001] APP delivery number=17 expected=17 length=1460 wait_ms=80 Q=0 verify=PASS
+[78152 ms][q1-001] APP timing wait_start_ms=78061 delivery_ms=78141 blocked_interval_ms=80
+[78162 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=78162 expected=18
+[78222 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 12 00 00 00 00 05 b4 00 00 d7 b8 66 a1 
+[78222 ms][q1-001] DECODE src=6400 dst=6401 seq=18 ack=0 length=1460 window=0 CRC=d7b866a1 recomputed=d7b866a1 PASS IHL=20
+[78232 ms][q1-001] Peer IP=192.168.4.2
+[78242 ms][q1-001] RX seq=18 length=1460 CRC=PASS
+[78242 ms][q1-001] RX accepted seq=18 into application queue port=6401
+[78253 ms][q1-001] APP delivery number=18 expected=18 length=1460 wait_ms=80 Q=0 verify=PASS
+[78253 ms][q1-001] APP timing wait_start_ms=78162 delivery_ms=78242 blocked_interval_ms=80
+[78263 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=78263 expected=19
+[78323 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 13 00 00 00 00 05 b4 00 00 a8 13 de 94 
+[78323 ms][q1-001] DECODE src=6400 dst=6401 seq=19 ack=0 length=1460 window=0 CRC=a813de94 recomputed=a813de94 PASS IHL=20
+[78333 ms][q1-001] Peer IP=192.168.4.2
+[78343 ms][q1-001] RX seq=19 length=1460 CRC=PASS
+[78343 ms][q1-001] RX accepted seq=19 into application queue port=6401
+[78354 ms][q1-001] APP delivery number=19 expected=19 length=1460 wait_ms=80 Q=0 verify=PASS
+[78354 ms][q1-001] APP timing wait_start_ms=78263 delivery_ms=78343 blocked_interval_ms=80
+[78364 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=78364 expected=20
+[78423 ms][q1-001] DATA HEADER hex: 19 00 19 01 00 00 00 14 00 00 00 00 00 11 00 00 90 82 43 ee 
+[78423 ms][q1-001] DECODE src=6400 dst=6401 seq=20 ack=0 length=17 window=0 CRC=908243ee recomputed=908243ee PASS IHL=20
+[78433 ms][q1-001] Peer IP=192.168.4.2
+[78443 ms][q1-001] RX seq=20 length=17 CRC=PASS
+[78443 ms][q1-001] RX accepted seq=20 into application queue port=6401
+[78454 ms][q1-001] APP delivery number=20 expected=20 length=17 wait_ms=79 Q=0 verify=PASS
+[78454 ms][q1-001] APP SUMMARY messages=20 bytes=27757 order/length/every-byte=PASS
+[78464 ms][q1-001] APP timing wait_start_ms=78364 delivery_ms=78443 blocked_interval_ms=79
+[78474 ms][q1-001] APP WAIT: blocking on port 6401 queue wait_start_ms=78474 expected=21
+=== SAVED TRANSCRIPT END (replay, not a new run) ===
