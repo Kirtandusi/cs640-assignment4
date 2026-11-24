@@ -21,3 +21,4 @@
 - 2026-11-24T16:39:57Z [USER] Requested fuller logging/code changes to obtain Q1 evidence.
 - 2026-11-24T16:39:57Z [CODE] Firmware a4-q1-v2 adds mutex-serialized lines, 48 KiB RAM transcript with serial l replay/r restart, every DATA header/CRC, enqueue outcome, explicit wait timing, initial delay measurement, successful sends and extra-delivery warning. No automatic run reset or transport changes.
 - 2026-11-24T16:39:57Z [TOOL] Both v2 builds, cppcheck role variants and packet tests passed. Saved software-validation-v2.txt. Firmware not flashed; on-board replay and fresh Q1 evidence pending. Both boards require v2 upload. RAM transcript does not survive reset.
+- 2026-11-24T16:40:56Z [USER] Requested Git conflict resolution and push. Merged origin/main rename commit with local v2 commits; resolved logs/q1/README.md retaining expanded capture/replay instructions. No firmware merge changes.
